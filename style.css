@@ -146,16 +146,14 @@ body {
 
 .product-box img {
     width: 100%;
-    height: 220px;
+    height: 300px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-    .product-container {
-        grid-template-columns: 1fr; 
         .product-box {
-            width: 95%;
-            margin: auto;
+        height: 250px;
     }
 
     
