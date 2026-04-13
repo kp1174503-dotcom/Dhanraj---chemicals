@@ -169,12 +169,24 @@ body {
  color: white;
 border-radius: 5px;
 text-decoration: none;
+text-align: center
 }
 
 .btn:hover {
     background darkorange; 
 }
 
+.WhatsApp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 22px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
 
 .certificate-section {
     text-align: center;
