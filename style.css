@@ -1,10 +1,12 @@
 body {
     margin: 0;
     font-family: Arial;
+    overflow-x: hidden;
 }
 
 .header {
     flex-wrap: wrap;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -94,8 +96,8 @@ body {
 }
 
 .video-section h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
 .video-wrapper video {
@@ -108,12 +110,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-@media(max-width: 600px) {
-    .video-section h2 {
-        font-size: 20px;
-    }
 }
 
 
