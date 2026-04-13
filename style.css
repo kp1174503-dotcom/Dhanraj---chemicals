@@ -84,10 +84,8 @@ body {
     cursor: pointer;
 }
 
-
 .video-section {
     width:100vw;
-    margin-left: calc(-50vw + 50%);
     padding: 10px;
 }
 
